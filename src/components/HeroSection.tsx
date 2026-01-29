@@ -45,11 +45,11 @@ export function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="text-base px-8 h-12 w-full sm:w-auto group">
-              Falar com especialista
+              <a href="https://wa.me/31990786786">Falar com especialista</a>
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="outline" size="lg" className="text-base px-8 h-12 w-full sm:w-auto">
-              Ver soluções
+              <a href="#solucoes">Ver soluções</a>
             </Button>
           </div>
 

@@ -37,7 +37,7 @@ export function CTASection() {
               variant="secondary"
               className="text-base px-8 h-12 w-full sm:w-auto group"
             >
-              Entrar em contato
+              <a href="https://wa.me/31990786786">Entrar em contato</a>
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
