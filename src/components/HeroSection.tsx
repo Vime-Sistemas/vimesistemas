@@ -44,12 +44,25 @@ export function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="text-base px-8 h-12 w-full sm:w-auto group">
-              <a href="https://wa.me/31990786786">Falar com especialista</a>
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            <Button
+              asChild
+              size="lg"
+              className="text-base px-8 h-12 w-full sm:w-auto group"
+            >
+              <a href="https://wa.me/31990786786" target="_blank" rel="noopener noreferrer">
+                Falar com especialista
+                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-            <Button variant="outline" size="lg" className="text-base px-8 h-12 w-full sm:w-auto">
-              <a href="#solucoes">Ver soluções</a>
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="text-base px-8 h-12 w-full sm:w-auto"
+            >
+              <a href="#solucoes">
+                Ver soluções
+              </a>
             </Button>
           </div>
 

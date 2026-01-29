@@ -32,13 +32,16 @@ export function CTASection() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button 
-              size="lg" 
+            <Button
+              asChild
+              size="lg"
               variant="secondary"
               className="text-base px-8 h-12 w-full sm:w-auto group"
             >
-              <a href="https://wa.me/31990786786">Entrar em contato</a>
-              <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <a href="https://wa.me/31990786786" target="_blank" rel="noopener noreferrer">
+                Entrar em contato
+                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
           </div>
         </div>
