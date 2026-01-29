@@ -20,7 +20,7 @@ export function Header() {
           {/* Logo */}
           <a href="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">V</span>
+              <img src="public/VIME.svg"></img>
             </div>
             <span className="font-semibold text-foreground text-lg tracking-tight">
               Vime Sistemas

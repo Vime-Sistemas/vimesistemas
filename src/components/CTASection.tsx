@@ -18,9 +18,9 @@ export function CTASection() {
 
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 text-sm font-medium text-primary-foreground/80 mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-white/50 text-sm font-medium text-primary-foreground/80 mb-8">
             <MessageSquare className="w-4 h-4" />
-            <span>Vamos conversar?</span>
+            <span className="text-white">Vamos conversar?</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-primary-foreground mb-6">

@@ -28,7 +28,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <a href="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">V</span>
+                <img src="public/VIME.svg"></img>
               </div>
               <span className="font-semibold text-foreground text-lg tracking-tight">
                 Vime Sistemas
@@ -118,9 +118,6 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Vime Sistemas. Todos os direitos reservados.
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Feito com ❤️ no Brasil
           </p>
         </div>
       </div>
