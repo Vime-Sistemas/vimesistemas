@@ -25,7 +25,7 @@ export function FeaturesSection() {
         {/* Section header */}
         <div className="max-w-2xl mb-16">
           <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-            Por que escolher a Vime
+            Por que escolher a Vime?
           </span>
           <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground">
             Tecnologia que entrega
@@ -54,25 +54,6 @@ export function FeaturesSection() {
                   </li>
                 ))}
               </ul>
-            </div>
-          ))}
-        </div>
-
-        {/* Stats section */}
-        <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 border-t border-border/30">
-          {[
-            { value: "50+", label: "Projetos entregues" },
-            { value: "98%", label: "Satisfação" },
-            { value: "24/7", label: "Suporte" },
-            { value: "5 anos", label: "De experiência" }
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-foreground mb-2">
-                {stat.value}
-              </div>
-              <div className="text-sm text-muted-foreground">
-                {stat.label}
-              </div>
             </div>
           ))}
         </div>

@@ -58,15 +58,17 @@ export function HeroSection() {
             <p className="text-sm text-muted-foreground mb-6">
               Empresas que confiam na Vime
             </p>
-            <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 opacity-50">
-              {["Empresa A", "Empresa B", "Empresa C", "Empresa D"].map((company, i) => (
-                <div 
-                  key={i}
-                  className="text-foreground/60 font-semibold text-lg tracking-wide"
-                >
-                  {company}
-                </div>
-              ))}
+            <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 opacity-70">
+              {/* Trust indicators com logos reais */}
+              <div className="flex flex-col items-center">
+                <img src="/AKIVA.svg" alt="Akiva" className="h-10 mb-2" />
+              </div>
+              <div className="flex flex-col items-center">
+                <img src="/BTS.png" alt="BTS" className="h-10 mb-2" />
+              </div>
+              <div className="flex flex-col items-center">
+                <img src="/SETUP.svg" alt="Setup" className="h-10 mb-2" />
+              </div>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const services = [
     icon: Puzzle,
     title: "Integração de Sistemas",
     description: "Conectamos suas ferramentas do dia a dia - SharePoint, Google Workspace, ERPs e muito mais.",
-    features: ["SharePoint", "Google Workspace", "APIs REST"]
+    features: ["SharePoint", "Google Workspace", "HubSpot", "Zoho"]
   },
   {
     icon: Code2,
@@ -30,7 +30,7 @@ const benefits = [
 
 export function ServicesSection() {
   return (
-    <section id="servicos" className="py-24 md:py-32 bg-secondary/20">
+    <section id="servicos" className="py-24 md:py-32 bg-white">
       <div className="container px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="max-w-2xl mx-auto text-center mb-16">
