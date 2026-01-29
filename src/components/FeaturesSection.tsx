@@ -2,19 +2,34 @@ import { Check } from "lucide-react";
 
 const features = [
   {
-    title: "Arquitetura moderna",
-    description: "Utilizamos as tecnologias mais recentes do mercado para garantir performance e segurança.",
-    items: ["React & Next.js", "Node.js & Python", "Cloud Native", "CI/CD automatizado"]
+    title: "Atendimento próximo",
+    description: "Você fala direto com quem faz. Sem burocracia, sem enrolação.",
+    items: [
+      "Contato direto com especialistas",
+      "Comunicação transparente",
+      "Acompanhamento de verdade",
+      "Respostas rápidas"
+    ]
   },
   {
-    title: "Foco em resultados",
-    description: "Cada projeto é pensado para gerar valor real para o seu negócio, com métricas claras de sucesso.",
-    items: ["Métricas de impacto", "ROI mensurável", "Entregas incrementais", "Feedback contínuo"]
+    title: "Soluções sob medida",
+    description: "Cada projeto é pensado junto com você, para resolver o que realmente importa.",
+    items: [
+      "Entendimento profundo do seu contexto",
+      "Adaptação às suas necessidades",
+      "Entrega enxuta e validada",
+      "Flexibilidade para ajustar o caminho"
+    ]
   },
   {
-    title: "Suporte contínuo",
-    description: "Não deixamos você na mão. Nossa equipe está sempre disponível para ajudar.",
-    items: ["Suporte 24/7", "SLA garantido", "Documentação completa", "Treinamento incluso"]
+    title: "Parceria de verdade",
+    description: "Mais do que fornecedores, queremos ser parceiros no seu crescimento.",
+    items: [
+      "Compromisso com o resultado",
+      "Transparência em cada etapa",
+      "Apoio após a entrega",
+      "Crescimento lado a lado"
+    ]
   }
 ];
 
@@ -28,7 +43,7 @@ export function FeaturesSection() {
             Por que escolher a Vime?
           </span>
           <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground">
-            Tecnologia que entrega
+            Tecnologia de verdade ao seu alcance
           </h2>
         </div>
 

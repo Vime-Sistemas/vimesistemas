@@ -39,21 +39,21 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a 
-                href="#" 
+                href="https://linkedin.com/company/vimesistemas" 
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/vimesistemas/" 
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="mailto:suporte@vimemkt.com.br" 
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >

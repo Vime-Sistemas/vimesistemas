@@ -37,15 +37,8 @@ export function CTASection() {
               variant="secondary"
               className="text-base px-8 h-12 w-full sm:w-auto group"
             >
-              Agendar reunião
+              Entrar em contato
               <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="text-base px-8 h-12 w-full sm:w-auto bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
-            >
-              Ver cases de sucesso
             </Button>
           </div>
         </div>
